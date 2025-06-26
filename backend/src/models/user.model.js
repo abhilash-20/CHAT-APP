@@ -26,3 +26,6 @@ const userSchema= new mongoose.Schema({
     {timrstamps:true}
 
 );
+
+const User = mongoose.model("User",userSchema);
+export default User;
